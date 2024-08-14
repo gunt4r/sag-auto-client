@@ -1,0 +1,32 @@
+.section-partners__header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1e1e1e;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .section-partners__content-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #06ae6c;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .section-partners__content-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #1e1e1e;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .section-partners__image-express{
+    width: 70%;}
+    .section-partners__image-micro{
+    width: 70%;}
+  }

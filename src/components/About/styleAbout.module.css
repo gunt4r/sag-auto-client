@@ -1,0 +1,83 @@
+.section-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #fff !important;
+}
+.section-about__car-image {
+  flex: 1;
+  background-image: url('../../assets/backgroundCar.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  max-width: 600px;
+}
+
+.section-about__content {
+  flex: 1;
+  padding: 20px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.section-about__header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+.section-about__header::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 180px;
+  height: 2px;
+  background-color: #06ae6c;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.section-about__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.section-about_icons {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+.section-about_icon-tiktok {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .section-about__car-image {
+    background-position: -250px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section-about__text{
+  font-size: 0.9rem;}
+}
+@media screen and (max-width: 400px) {
+  .section-about__car-image {
+    background-position: -270px center; 
+
+  }
+  .section-about__text{
+  font-size: 0.9rem;}
+}

@@ -1,0 +1,117 @@
+.section-contact__header {
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.section-contact__map {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-right: auto;
+  margin-left: -10px;
+}
+
+.section-contact__header-right {
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.section-contact__header-right__bottom {
+  margin-bottom: 20px;
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: left;
+}
+.section-header__information-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-header__information {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.section-header__information:last-child {
+  margin-bottom: 35px;
+}
+.section-header__information-icons {
+  width: 40px;
+  margin-right: 10px;
+  color: #1e1e1e;
+}
+.section-header__information-text {
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  text-align: right;
+  margin-bottom: 0;
+}
+.section-contact__icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.icon {
+  color: #1e1e1e;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .section-contact__row {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+  }
+  .section-contact__col {
+    flex-direction: column;
+    display: flex;
+    width: 100% !important;
+    align-items: center;
+  }
+  .section-contact__map {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section-header__information {
+    flex-direction: column;
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-contact__col:nth-child(2){
+  margin-top: 3rem;}
+}
+@media screen and (max-width: 780px) {
+  .section-contact__map{
+  width: 500px;}
+}
+@media screen and (max-width: 560px) {
+  .section-contact__map{
+  width: 400px;
+  height: 300px;
+}
+}
+@media screen and (max-width: 420px) {
+  .section-contact__map{
+  width: 300px;
+  height: 200px;
+}
+}

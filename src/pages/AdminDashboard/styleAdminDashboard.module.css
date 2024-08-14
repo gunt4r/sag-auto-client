@@ -1,0 +1,24 @@
+.image-preview__image {
+    width: 200px;
+    height: 100px;
+  }
+@media screen and (max-width: 550px) {
+  .modal-title__new {
+    font-size: 1.2rem;
+  }
+  .modal-title__edit {
+    font-size: 1.2rem;
+  }
+  .image-preview__image {
+    width: 50%;
+    height: 100px;
+  }
+  .modal-footer {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .add-benefit {
+    margin-bottom: 15px;
+  }
+}

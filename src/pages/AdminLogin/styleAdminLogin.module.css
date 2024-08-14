@@ -1,0 +1,21 @@
+.section-login__header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #1e1e1e;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.section-login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-login__form-input{
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #1e1e1e;
+    margin-bottom: 1rem;
+    height: 40px;
+}

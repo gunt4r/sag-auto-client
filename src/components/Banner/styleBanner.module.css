@@ -1,0 +1,214 @@
+.section-banner {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 400px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.section-banner__content-text {
+  padding-left: 3rem;
+}
+.section-banner__content-text-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #06ae6c;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.section-banner__content-text-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-top: 0;
+}
+.section-banner__content-text-bottom {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #06ae6c;
+  margin-bottom: 0;
+  border: 1px solid #06ae6c;
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+  padding: 8px 20px;
+}
+.section-banner__image {
+  height: 100%;
+  display: flex;
+  align-content: end;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.section-banner__content-image {
+  border-radius: 10px;
+  width: 550px;
+  display: flex;
+  align-content: end;
+  flex-direction: column;
+  margin-top: auto;
+}
+.section-banner__content-image__mobile{
+  border-radius: 10px;
+  width: 550px;
+  align-content: end;
+  flex-direction: column;
+  margin-top: auto;
+  display: none;
+}
+@media screen and (max-width: 1150px) {
+  .section-banner__content-image {
+    width: 430px;
+  }
+  .section-banner__content-text-title {
+    font-size: 1.7rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 1.2rem;
+  }
+  .section-banner__content-text-bottom {
+    width: 300px;
+    padding: 8px 0px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section-banner__content-image {
+    width: 300px;
+  }
+  .section-banner {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .section-banner__content-image {
+    width: 300px;
+  }
+  .section-banner__content-text-title {
+    font-size: 1.2rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 1rem;
+  }
+  .section-banner__content-text-bottom {
+    width: 300px;
+    padding: 8px 0px;
+    font-size: 0.9rem;
+  }
+  .section-banner {
+    height: 250px;
+  }
+  .section-banner__content-text{
+  padding-left: 2rem;}
+}
+@media screen and (max-width: 740px) {
+  .section-banner__content-image {
+    width: 280px;
+  }
+  .section-banner__content-text-title {
+    font-size: 1.1rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .section-banner__content-text-bottom {
+    width: 300px;
+    padding: 8px 0px;
+    font-size: 0.7rem;
+    width: 200px;
+  }
+  .section-banner {
+    height: 300px;
+  }
+  .section-banner__content-text{
+    padding-left: 1rem;}
+
+}
+@media screen and (max-width: 640px) {
+  .section-banner__content-image__mobile {
+   display: flex;
+    width: 200px;
+  }
+  .section-banner__content-image {
+    display: none;
+  }
+  .section-banner__content-text-title {
+    font-size: 1.1rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .section-banner__content-text-bottom {
+    width: 300px;
+    padding: 8px 0px;
+    font-size: 0.7rem;
+    width: 200px;
+  }
+  .section-banner {
+    height: 300px;
+  }
+  .section-banner__content-text{
+    padding-left: 1rem;}
+
+}
+@media screen and (max-width: 540px) {
+  .section-banner__content-image__mobile {
+   display: flex;
+    width: 180px;
+  }
+  .section-banner__content-image {
+    display: none;
+  }
+  .section-banner__content-text-title {
+    font-size: 1.1rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .section-banner__content-text-bottom {
+    width: 300px;
+    padding: 8px 0px;
+    font-size: 0.7rem;
+    width: 200px;
+  }
+  .section-banner {
+    height: 300px;
+  }
+  .section-banner__content-text{
+    padding-left: 1rem;}
+
+}
+
+@media screen and (max-width: 440px) {
+  .section-banner__content-image__mobile {
+   display: flex;
+    width: 130px;
+  }
+  .section-banner {
+    height: 270px;
+  }
+  .section-banner__content-text-title {
+    font-size: 1rem;
+  }
+  .section-banner__content-text-subtitle {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .section-banner__content-text-bottom {
+    padding: 8px 0px;
+    font-size: 0.6rem;
+    width: 165px;
+  }
+}

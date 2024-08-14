@@ -1,0 +1,25 @@
+.section-benefits__header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #1e1e1e;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.section-benefits__content-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: #06ae6c;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.section-benefits__content-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #1e1e1e;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

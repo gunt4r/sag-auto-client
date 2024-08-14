@@ -1,0 +1,149 @@
+.reviewCarousel {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.reviewCard {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 0 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  min-height: 200px;
+  max-width: 350px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.reviewCard h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reviewCard p {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.reviewCard img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.reviewCard .reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.customArrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background: #c0e1d4;
+  border: none;
+  color: #5cc59c;
+  font-size: 24px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prevArrow {
+  left: 0px;
+}
+
+.nextArrow {
+  right: 0px;
+}
+
+.slick-list {
+  margin: 0 auto;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  color: var(--arrow-color);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+p {
+  color: #81859c;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 500px) {
+  .customArrow {
+    top: auto;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 5px;
+  }
+
+  .prevArrow {
+    left: 20px;
+    bottom: -20px;
+  }
+
+  .nextArrow {
+    left: 93%;
+    bottom: -20px;
+  }
+
+  .reviewCard {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .slick-slide {
+    padding: 0;
+  }
+}
